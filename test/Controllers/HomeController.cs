@@ -9,11 +9,11 @@ using test.Models;
 
 namespace test.Controllers
 {
-    public class HomeController : Controller
+    public class HomecopyController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomecopyController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
